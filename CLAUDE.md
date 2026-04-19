@@ -24,11 +24,16 @@ start tictactoe.html
 
 ## Git & GitHub
 
-All changes must be committed with clean messages and pushed to `origin/master`:
+After completing any meaningful unit of work, commit and push immediately so progress is never lost and the repo always reflects the latest state.
+
 ```
 git add <files>
 git commit -m "descriptive message"
 git push
 ```
+
+- Commit after each logical change (new feature, bug fix, config update, etc.)
+- Do not batch unrelated changes into one commit
+- Push immediately after committing — do not leave commits unpushed
 
 Remote: https://github.com/newbornspec/claude-code-test
